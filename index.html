@@ -1,138 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>PROJET3-TAILWIND</title>
-</head>
+  </head>
 
-<body>
-    <div class="flex fixed items-center justify-bitween border-4 -mx-4 rounded-2xl bg-white-600 w-full h-20">
-        <div class="max-w-full w-60 px-5 border-2">
-            <a href="#" class="block w-full"></a>
-            <img src="https://app-tailwind.preview.uideck.com/src/images/logo/logo.svg" alt="logo"
-                class="w-full dark:hidden">
-            <img src="https://app-tailwind.preview.uideck.com/src/images/logo/logo-white.svg" alt="logo"
-                class="hidden w-full dark:block">
+  <body>
+    <div
+      class="flex fixed items-center justify-bitween border-4 -mx-4 mb-24 rounded-2xl bg-white-600 w-full h-20"
+    >
+      <div class="max-w-full w-60 px-5 border-2">
+        <a href="#" class="block w-full"></a>
+        <img
+          src="https://app-tailwind.preview.uideck.com/src/images/logo/logo.svg"
+          alt="logo"
+          class="w-full dark:hidden"
+        />
+        <img
+          src="https://app-tailwind.preview.uideck.com/src/images/logo/logo-white.svg"
+          alt="logo"
+          class="hidden w-full dark:block"
+        />
+      </div>
+      <div class="flex items-center w-full justify-end text-primery m-8">
+        <div class="border-2">
+          <a href="#">Features</a>
+          <a href="#">About</a>
+          <a href="#">Pricing</a>
+          <a href="#">Reviews</a>
+          <a href="#">Contact</a>
+          <a href="#">Pages</a>
         </div>
-        <div class="flex items-center w-full justify-end text-primery m-8">
-            <div class="border-2">
-                <a href="#">Features</a>
-                <a href="#">About</a>
-                <a href="#">Pricing</a>
-                <a href="#">Reviews</a>
-                <a href="#">Contact</a>
-                <a href="#">Pages</a>
-            </div>
-            <div class="justify-end pr-16 xl:pl-[100px]  sm:flex lg:pr-0">
-                <a href="#"
-                    class="flex items-center justify-center py-3 px-7 w-full font-medium text-blue transition-all bg-violet-500">
-                    Download</a>
-            </div>
+        <div class="justify-end pr-16 xl:pl-[100px] sm:flex lg:pr-0">
+          <a
+            href="#"
+            class="flex items-center justify-center py-3 px-7 w-full font-medium text-blue transition-all bg-violet-500"
+          >
+            Download</a
+          >
         </div>
-    </div><br><br>
+      </div>
+    </div>
 
+    <!-- deuxieme section -->
     <section class="bg-violet-100 flex m-8 items-center">
-        <div class="max-w-7xl mx-auto px-1 grid grid-cols-1 lg:grid-cols-2 gap-[200px] items-center">
-            <!-- partie gauche -->
-            <div class="text-start">
-                <h1 class="font-bold text-blue leading-tight text-4xl lg:text-5xl">Tailwind CSS<br>
-                    Template for Apps<br>
-                    and Software</h1>
-                <p class="mt-6 text- max-w-md ">All in one Tailwind CSS site template for - App and Software<br>
-                    sites. Comes with all essential components, clean design and<br>
-                    everything you can expect from a complete app landing page.
-                </p>
-                <div class="mt-8 flex items-center gap-4">
-                    <button class="bg-violet-500 text-white px-6 py-3 rounded-lg">
-                        Explore
-                    </button>
-                    <button class="flex items-center gap-2 text-black">
-                        Watch intro
-                    </button>
-                </div>
+      <div
+        class="max-w-7xl mx-auto px-1 grid grid-cols-1 lg:grid-cols-2 gap-[200px] items-center"
+      >
+        <!-- partie gauche -->
+        <div class="text-start">
+          <h1 class="font-bold text-blue leading-tight text-4xl lg:text-5xl">
+            Tailwind CSS<br />
+            Template for Apps<br />
+            and Software
+          </h1>
+          <p class="mt-6 text- max-w-md">
+            All in one Tailwind CSS site template for - App and Software<br />
+            sites. Comes with all essential components, clean design and<br />
+            everything you can expect from a complete app landing page.
+          </p>
+          <div class="mt-8 flex items-center gap-4">
+            <button class="bg-violet-500 text-white px-6 py-3 rounded-lg">
+              Explore
+            </button>
+            <button class="flex items-center gap-2 text-black">
+              Watch intro
+            </button>
+          </div>
+        </div>
+        <!-- partie droite -->
+        <div class="flex justify-center lg:justify-end">
+          <div class="pl-4 rounded-3xl object-cover">
+            <img
+              src="https://app-tailwind.preview.uideck.com/src/images/hero/hero-image-2.svg"
+              alt="hero-image-2"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- troisieme section -->
+    <section class="text-center">
+      <h1 class="items-center text-black text-4xl font-bold mt-[80px]">
+        Our Recent Awards
+      </h1>
+      <p class="mb-10 text-base items-center m-8">
+        There are many variations of passages of Lorem Ipsum available<br />
+        but the majority have suffered alteration in some form.
+      </p>
+    </section>
+
+    <!-- quatrieme section -->
+    <section class="flex flex-wrap gap-4 w-full">
+      <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div class="bg-blue-100 p-8 rounded-2xl">
+          <div>
+            <div class="flex items-center mb-6">
+              <span class="pr-[10px]"> </span>
             </div>
-            <!-- partie droite -->
-            <div class="flex justify-center lg:justify-end">
-                <div class="pl-4 rounded-3xl object-cover">
-                    <img src="https://app-tailwind.preview.uideck.com/src/images/hero/hero-image-2.svg"
-                        alt="hero-image-2" />
-                </div>
+            <div class="flex items-center mb-12">
+              <div class="flex items-center">
+                <img
+                  src="https://app-tailwind.preview.uideck.com/src/images/award/person-1.png"
+                  alt="image"
+                  class="w-[38px] h-[38px] border-2 border-white rounded-full"
+                />
+                <img
+                  src="https://app-tailwind.preview.uideck.com/src/images/award/person-2.png"
+                  alt="image"
+                  class="ml-3 w-[38px] h-[38px] border-1 border-white rounded-full"
+                />
+                <img
+                  src="https://app-tailwind.preview.uideck.com/src/images/award/person-3.png"
+                  alt="image"
+                  class="ml-3 w-[38px] h-[38px] border-1 border-white rounded-full"
+                />
+                <span class="inline-block text-black pl-4 text-base"
+                  >+195K raters</span
+                >
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consec<br />
+              adipiscing elit In vulputate vitae massa eu<br />
+              dapibus ligula.
+            </p>
+            <br /><br />
+            <a href="#" class="text-violet-500">Rate Out Application</a>
+          </div>
+        </div>
+        <div class="bg-blue-100 p-8 rounded-2xl">
+          <div>
+            <div class="flex items-center mb-6">
+              <span class="pr-[10px]"> </span>
+            </div>
+            <h1 class="text-xl text-black text-start font-bold mb-8">
+              Best of trendy design in 2024 on<br />
+              Awwwards
+            </h1>
+            <p class="text-base mb-12">
+              Lorem ipsum dolor sit amet, consec<br />
+              adipiscing elit In vulputate vitae massa eu<br />
+              dapibus ligula.
+            </p>
+            <a href="#" class="text-violet-500">Go to awards</a>
+          </div>
+        </div>
+        <div class="bg-blue-100 p-8 rounded-2xl">
+          <div>
+            <img
+              src="https://app-tailwind.preview.uideck.com/src/images/logo/logo.svg"
+              alt="logo"
+              class="mb-8"
+            />
+            <h1 class="mb-8 font-bold">
+              Appwind is the best app for<br />
+              online payments.
+            </h1>
+            <p class="mb-8 text-black-100">
+              Lorem ipsum dolor sit amet, consec<br />
+              adipiscing elit In vulputate vitae massa eu<br />
+              dapibus ligula.
+            </p>
+            <a href="#" class="text-violet-500">Know More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cinquieme section -->
+    <section>
+      <div
+        class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-16"
+      >
+        <!-- partie gauche -->
+        <div class="w-full px-4 lg: w-1/2">
+          <div class="">
+            <img
+              src="https://app-tailwind.preview.uideck.com/src/images/about/about-image-1.svg"alt=""/>
+          </div>
+        </div>
+        <!-- partie droite -->
+        <div class="text-start w-full px-4 lg: w-1/2 mt-24">
+          <a href="#" class="text-violet-500 text-base">About Application</a>
+          <h1 class="font-bold text-3xl mt-8">
+            Instant Payment Transfer<br />
+            SavesYou Time
+          </h1>
+          <p class="text-black-100 text-xl mt-8 mb-8">
+            Schedule your posts for times when your audience is most<br />
+            active. Choose from our best-time predictions, or create<br />
+            your own publishing schedule.
+          </p>
+          <a href="#" class="text-violet-500 text-base">Know More About App</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- sixième section -->
+    <section>
+      <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-16">
+        <!-- partie gauche -->
+        <div class="text-start w-full px-4 lg: w-1/2 mt-24">
+          <a href="#" class="text-violet-500 text-base">Easy to Manage Appwind</a>
+          <h1 class="font-bold text-3xl mt-8">
+            Manage your online wallet<br>
+            with Appwind.
+          </h1>
+          <p class="text-black-100 text-xl mt-8 mb-8">
+           Schedule your posts for times when your audience is most<br>
+           active. Choose from our best-time predictions, or create<br>
+           your own publishing schedule. 
+          </p>
+          <a href="#" class="text-violet-500 text-base">Get the App Now!</a>
+        </div>
+        <!-- partie droite -->
+        <div class="w-full px-4 lg: w-1/2">
+          <div>
+            <img
+              src="https://app-tailwind.preview.uideck.com/src/images/about/about-image-2.svg"alt=""/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- septième section -->
+    <section class="text-center">
+      <h1 class="items-center text-black text-4xl font-bold mt-[80px]">
+      How it Works?  
+      </h1>
+      <p class="mb-10 text-xl items-center m-8">
+        There are many variations of passages of Lorem Ipsum available<br>
+        but the majority have suffered alteration in some form.
+      </p>
+    </section>
+
+    <!-- huitième section -->
+    <section class="flex flex-wrap gap-4 w-full">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            <div>
+                <h1 class="font-bold text-center text-2xl mb-8">
+                    Download for Free
+                </h1>
+                <p class="text-center text-xl">
+                    Lorem ipsum dolor sit amet, consectetur<br>
+                     adipiscing elit lectus non ipsum.
+                </p>
+            </div>
+            <div>
+                <h1 class="font-bold text-center text-2xl mb-8">
+                    Open an Account
+                </h1>
+                <p class="text-center text-xl">
+                   Lorem ipsum dolor sit amet, consectetur<br>
+                    adipiscing elit lectus non ipsum. 
+                </p>
+            </div>
+            <div>
+                <h1 class="font-bold text-center text-2xl mb-8">
+                    Enjoy our App
+                </h1>
+                <p class="text-center text-xl" >
+                     Lorem ipsum dolor sit amet, consectetur<br>
+                    adipiscing elit lectus non ipsum.
+                </p>
             </div>
         </div>
     </section>
 
+     <section class="bg-violet-100 flex m-8 items-center">
+      <div
+        class="max-w-7xl mx-auto px-1 grid grid-cols-1 lg:grid-cols-2 gap-[200px] items-center"
+      >
+        <!-- partie gauche -->
+        <div class="text-start">
+            <a href="#" class="text-violet-500">Download Now!</a>
+          <h1 class="font-bold text-blue leading-tight text-4xl lg:text-5xl">
+            Download our mobile<br>
+             application.
+          </h1>
+          <p class="mt-6 text- max-w-md">
+           Download Appwind mobile banking app for IOS &<br>
+            Android to manage your online money.
+          </p>
+          <div class="mt-8 flex items-center gap-4">
+            <button class="bg-violet-500 text-white px-6 py-3 rounded-lg">
+              Google Play
+            </button>
+            <button class="flex items-center bg-black rounded-lg px-6 py-3 gap-2 text-white">
+              Apple Store
+            </button>
+          </div>
+        </div>
+        <!-- partie droite -->
+        <div class="flex justify-center lg:justify-center">
+          <div class="relative pl-4 rounded-3xl object-cover">
+            <img src="https://app-tailwind.preview.uideck.com/src/images/cta/cta-image-1.svg"alt="image1" class="shadow-lg"/>
+            <img src="https://app-tailwind.preview.uideck.com/src/images/cta/cta-image-2.svg" alt="image2" class="absolute top-20 left-40">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- neuvieme section -->
     <section class="text-center">
-        <h1 class="items-center text-black text-4xl font-bold mt-[80px]">Our Recent Awards</h1>
-        <p class="mb-10 text-base items-center m-8">There are many variations of passages of Lorem Ipsum available<br>
+        <h1 class="text-4xl font-bold mt-[80px]">
+           Flexible Plans
+        </h1>
+        <p class="text-xl mt-8 ">
+           There are many variations of passages of Lorem Ipsum available<br>
             but the majority have suffered alteration in some form.
         </p>
     </section>
 
-    <section class="flex flex-wrap gap-4 w-full">
+    <!-- dixieme section -->
+    <section class="flex flex-wrap gap-4 w-full mt-8">
         <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            <div class="bg-blue-100 p-8 rounded-2xl">
-                <div>
-                    <div class="flex items-center mb-6">
-                        <span class="pr-[10px]">
-
-                        </span>
-                    </div>
-                    <div class="flex items-center mb-12">
-                        <div class="flex items-center">
-                            <img src="https://app-tailwind.preview.uideck.com/src/images/award/person-1.png" alt="image"
-                                class="w-[38px] h-[38px] border-2 border-white rounded-full">
-                            <img src="https://app-tailwind.preview.uideck.com/src/images/award/person-2.png" alt="image"
-                                class="ml-3 w-[38px] h-[38px] border-1 border-white rounded-full ">
-                            <img src="https://app-tailwind.preview.uideck.com/src/images/award/person-3.png" alt="image"
-                                class="ml-3 w-[38px] h-[38px] border-1 border-white rounded-full">
-                            <span class="inline-block text-black pl-4 text-base">+195K raters</span>
-                        </div>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet, consec<br>
-                        adipiscing elit In vulputate vitae massa eu<br>
-                        dapibus ligula.
-                    </p><br><br>
-                    <a href="#" class="text-violet-500">Rate Out Application</a>
-                </div>
+            <div class="border-2 rounded-lg">
+                <P class="text-xl text-start font-bold">
+                    Basic Plan
+                </P>
+                <h1 class="font-bold text-4xl">
+                    $35 /month
+                </h1>
             </div>
-            <div class="bg-blue-100 p-8 rounded-2xl">
-                <div>
-                    <div class="flex items-center mb-6">
-                        <span class="pr-[10px]">
-
-                        </span>
-                    </div>
-                    <h1 class="text-xl text-black text-start font-bold mb-8">Best of trendy design in 2024 on<br>
-                        Awwwards
-                    </h1>
-                    <p class="text-base mb-12">Lorem ipsum dolor sit amet, consec<br>
-                        adipiscing elit In vulputate vitae massa eu<br>
-                        dapibus ligula.
-                    </p>
-                    <a href="#" class="text-violet-500">Go to awards</a>
-                </div>
+            <div class="border-2 rounded-lg">
+                <P class="text-xl text-start font-bold">
+                    Popular Plan
+                </P>
+                <h1 class="font-bold text-start text-4xl">
+                    $99 /month
+                </h1>
             </div>
-            <div class="bg-blue-100 p-8 rounded-2xl">
-                <div>
-                    <img src="https://app-tailwind.preview.uideck.com/src/images/logo/logo.svg" alt="logo" class="mb-8">
-                    <h1 class="mb-8 font-bold">Appwind
-                    is the best app for<br>
-                    online payments.
-                    </h1>
-                    <p class="mb-8 text-black-100">Lorem ipsum dolor sit amet, consec<br>
-                        adipiscing elit In vulputate vitae massa eu<br>
-                        dapibus ligula.
-                    </p>
-                    <a href="#" class="text-violet-500">Know More</a>
-                </div>
+            <div class="border-2 rounded-lg">
+                <P class="text-xl text-start font-bold">
+                    Golden Plan
+                </P>
+                <h1 class="font-bold text-start text-4xl">
+                    $159 /month
+                </h1>
             </div>
         </div>
     </section>
-
-
-</body>
-
+  </body>
 </html>
